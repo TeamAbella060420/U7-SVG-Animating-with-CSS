@@ -11,11 +11,7 @@ svg {
   float: left;
 }
 
-.gear-bg,
-.hammer-bg,
-.heart-bg {
-  transition: .3s ease-out;
-}
+
 /* --------------------------
   GEAR
 --------------------------- */
