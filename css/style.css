@@ -12,8 +12,8 @@ svg {
 }
 
 .gear-icon,
-.heart-icon,
-.hammer-icon {
+.hammer-icon,
+.heart-icon {
   transform-origin: 50% 50%;
 }
 
@@ -21,24 +21,24 @@ svg {
   GEAR
 --------------------------- */
 
-.gear-icon {
-  transition: transform .4s ease-out;
-
-}
-
 .gear:hover .gear-icon {
   transform: rotate(45deg) scale(1.3);
+}
+
+.gear-icon {
+  transition: transform .4s ease-out;
 }
 
 /* --------------------------
   HAMMER
 --------------------------- */
-.hammer:hover .hammer-icon {
-  transform: rotate(45deg) scale(1.3);
-}
-.hammer-icon {
-  transition: transform .4s ease-out;
 
+.hammer:hover .hammer-icon {
+  transform: rotate(45deg);
+}
+
+.hammer-icon {
+  transition: transform .3s ease-out;
 }
 
 /* --------------------------
@@ -46,9 +46,9 @@ svg {
 --------------------------- */
 
 .heart:hover .heart-icon {
-  transform: rotate(45deg) scale(1.3);
+  transform: scale(1.3);
 }
-.heart-icon {
-  transition: transform .4s ease-out;
 
+.heart-icon {
+  transition: transform .2s ease-out;
 }
