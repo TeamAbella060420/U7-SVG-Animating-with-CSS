@@ -11,13 +11,19 @@ svg {
   float: left;
 }
 
+.gear-icon,
+.heart-icon,
+.hammer-icon {
+  transform-origin: 50% 50%;
+}
+
 /* --------------------------
   GEAR
 --------------------------- */
 
 .gear-icon {
   transition: transform .4s ease-out;
-  transform-origin: 50% 50%;
+
 }
 
 .gear:hover .gear-icon {
@@ -27,7 +33,9 @@ svg {
 /* --------------------------
   HAMMER
 --------------------------- */
-
+.hammer:hover .hammer-icon {
+  transform: rotate(45deg) scale(1.3);
+}
 
 
 /* --------------------------
