@@ -36,7 +36,10 @@ svg {
 .hammer:hover .hammer-icon {
   transform: rotate(45deg) scale(1.3);
 }
+.hammer-icon {
+  transition: transform .4s ease-out;
 
+}
 
 /* --------------------------
   HEART
