@@ -27,14 +27,7 @@ svg {
 /* --------------------------
   HAMMER
 --------------------------- */
-.hammer-bg {
-  stroke: #fee16e;
-}
 
-.hammer-bg:hover {
-  fill: #feae6e;
-  stroke-width: 8;
-}
 
 
 /* --------------------------
